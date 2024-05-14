@@ -3,7 +3,7 @@ import argparse
 import json
 import torch
 
-from ptq import aimetPTQ
+from src.ptq import aimetPTQ
 
 class JsonHandler:
     @staticmethod
