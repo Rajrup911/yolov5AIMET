@@ -1,0 +1,15 @@
+{
+    "model":{
+        "model_name": "yolov5",
+        "call_name": "yolov5nu",
+        "pretrained": true,
+        "num_classes": 80,
+        "input_shape": [
+            3,
+            640,
+            640
+          ],
+        "dataset_dir": "/media/ava/DATA1/datasets/coco128/",
+        "artifacts": "/media/ava/DATA2/rajrup/yolov5/artifacts/"
+    }
+}
